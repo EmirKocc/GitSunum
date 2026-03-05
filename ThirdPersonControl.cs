@@ -34,8 +34,7 @@ public class ThirdPersonControl : MonoBehaviour
 
             // Move the player in the calculated direction using CharacterController
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-            // Move the player in the calculated direction using CharacterController
-            // Move the player in the calculated direction using CharacterController
+            // Açık Kaynak Kodlu yazılımlar
         }
     }
 }
